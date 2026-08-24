@@ -1,0 +1,30 @@
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.wrapper div {
+    background-color: green;
+    padding: 5% 5%;
+    outline-style: solid;
+}
+
+.wrapper2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.wrapper2 div {
+    background-color: red;
+    padding: 1.5% 5%;
+    outline-style: solid;
+}
+
+
+#box22 {
+    flex-grow: 2;
+}
